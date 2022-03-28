@@ -1,0 +1,27 @@
+.partnership {
+  h2 {
+    font-family: var(--font-roboto-condensed);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-top: 10px;
+  }
+
+  p {
+    padding-right: 1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #111;
+  }
+
+  img {
+    max-height: 300px;
+  }
+}
+
+.title_bar {
+  display: inline-block;
+  height: 10px;
+  width: 100px;
+  background-color: var(--primary-color);
+}

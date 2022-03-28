@@ -1,0 +1,32 @@
+.button {
+  background-color: var(--primary-color);
+  text-transform: uppercase;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  box-shadow: 0 0 0 !important;
+  font-family: var(--font-roboto-condensed);
+  color: #111;
+  padding: 8px 1.4rem;
+  margin-top: 1.4rem;
+
+  &.bg_white {
+    background-color: white;
+    font-weight: 400;
+    font-family: var(--font-roboto-condensed);
+
+    &:hover,
+    &:focus {
+      background-color: #e6e6e6;
+      color: #111;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 0 !important;
+    background-color: #111;
+    color: var(--primary-color);
+  }
+}

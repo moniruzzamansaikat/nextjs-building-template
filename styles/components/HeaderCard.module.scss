@@ -1,0 +1,28 @@
+.header_card {
+  text-align: center;
+  padding: 2rem 1rem;
+
+  .icon_box {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1.2rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h2 {
+    font-family: var(--font-roboto-condensed);
+    font-weight: 300;
+    margin-bottom: 1.3rem;
+  }
+
+  p {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+  }
+}

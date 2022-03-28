@@ -1,0 +1,7 @@
+.header_cards {
+  margin-top: -1rem;
+  z-index: 999999;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}

@@ -1,0 +1,31 @@
+.sidebar {
+  padding: 1rem;
+  padding-top: 3px;
+
+  span {
+    font-size: 1.8rem;
+    cursor: pointer;
+
+    &:hover {
+      color: #00a8ff;
+    }
+  }
+
+  ul {
+    list-style: none !important;
+
+    li {
+      margin: 12px 0;
+
+      a {
+        color: #000;
+        font-weight: 600;
+        text-decoration: none;
+
+        &:hover {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

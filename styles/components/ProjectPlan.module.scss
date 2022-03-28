@@ -1,0 +1,25 @@
+.project_plan {
+  background-color: blue;
+  padding-top: 10rem;
+  background-image: url('/img/asd-min.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 450px;
+
+  h2 {
+    font-family: var(--font-roboto-condensed);
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  p {
+    margin-top: 1rem;
+    word-wrap: break-word;
+    font-size: 1rem;
+  }
+}
